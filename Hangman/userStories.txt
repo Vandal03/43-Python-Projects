@@ -1,0 +1,57 @@
+## DRY Code - Use functions for duplicate code
+
+As a developer
+I want to ensure that I am using functions to elimate repeated code
+So that I can ensure the code is DRY and more readable
+
+- Implement functions on repeated code blocks
+
+
+
+## Review variable names and adjust
+
+As a developer
+I want to ensure that my variable names are appropriate
+So that my code is readable and can be understood when worked on at a later duplicate
+
+- Review and adjust variable names where necessary
+
+
+## Implement validation
+
+As a product owner
+I want to ensure that user input meets the parameters required by the application
+So that any errors can be avoided if the unaccepted value is provided
+
+- Ensure the user only inputs Alpha Characters when input is requested
+- Ensure that invalid responses are handled appropriately (Should ask user to re-enter response)
+
+
+
+## Display user's guesses
+
+As a user
+I want to see what characters I have already guessed
+So I can ensure I am not guessing the same character twice
+
+- Create a command to display the user's guesses
+
+
+## Prevent user from guessing same letter again
+
+As a product owner
+I want to prevent the game from processing a letter that has previously been guessed
+So that the player doesn't receive additional incorrect guesses for duplicate guesses
+
+- Ensure that duplicate guesses are handled appropriately (Should display a message, and ask for the user to guess again)
+
+
+## Give a user a list of commands they can user
+
+As a product owner
+I want the user to be aware of additoinal commands they can user
+so they can view information that may be availble to them
+
+- Implement text to show a list of avaiable commands
+
+## Dispaly guesses left with command
